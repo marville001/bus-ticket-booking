@@ -23,14 +23,8 @@ class Admin extends Component {
       isLoggedIn: false,
       contentIndex: "bus-schedule",
       admins: [],
-      buses: [
-        { id: 1, name: "Mat" },
-        { id: 3, name: "Matatu" }
-      ],
-      routes: [
-        { id: 1, from: "Nakuru", to: "Naivasho" },
-        { id: 3, from: "Nairobi", to: "Kericho" }
-      ],
+      buses: [],
+      routes: [],
       schedules: []
     };
   }
