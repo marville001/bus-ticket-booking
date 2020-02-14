@@ -1,0 +1,218 @@
+.ALnav {
+  background: #333;
+  color: #fff;
+  display: flex;
+  justify-content: space-around;
+}
+.formdiv {
+  display: flex;
+  justify-content: center;
+}
+
+.ALform {
+  border: rgba(27, 26, 26, 0.6) solid 1px;
+  border-radius: 10px;
+  padding: 20px;
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  width: 300px;
+  box-shadow: 7px 6px 32px 0px rgba(0, 0, 0, 0.77);
+}
+.ALform h5 {
+  font-size: 20px;
+  text-align: center;
+}
+.ALform div input {
+  display: block;
+  width: 100%;
+  padding: 5px 10px;
+  font-size: 16px;
+  margin: 10px 0 20px -20px;
+}
+.ALform label {
+  margin-left: -20px;
+}
+
+.form-cont {
+  /* background: blue; */
+  position: relative;
+}
+.btn-cont {
+  display: flex;
+  justify-content: center;
+}
+.btn-cont button {
+  font-size: 16px;
+  margin-bottom: 30px;
+  margin-top: 20px;
+  padding: 5px 10px;
+}
+.admin-header,
+.ddd {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.admin-header .admin-log {
+  margin-left: 20px;
+  color: rgb(3, 83, 30);
+  margin-right: auto;
+}
+.admin-header button {
+  background: transparent;
+  border: none;
+  font-size: 18px;
+  margin-right: 13px;
+}
+.hr {
+  border: rgb(146, 143, 143) solid 0.7px;
+  height: 30px;
+  margin: 0 10px;
+}
+.user {
+  font-size: 20px;
+  text-transform: capitalize;
+  color: teal;
+}
+aside {
+  padding: 10px;
+}
+.aside-cont {
+  background: #fff;
+  margin-top: -20px;
+}
+.aside-cont ul {
+  padding: 0px;
+}
+.aside-cont ul li {
+  padding: 4px 4px 10px 0px;
+  margin-bottom: 3px;
+  color: #333;
+}
+.aside-cont ul li:hover {
+  cursor: pointer;
+  background-color: aliceblue;
+}
+.aside-cont ul li a {
+  color: #333;
+}
+.add-admin-form {
+  padding: 20px;
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+}
+.add-admin-form input {
+  width: 250px;
+  height: 25px;
+  padding: 5px 10px;
+  margin: 10px;
+}
+.add-admin-form button {
+  width: 100px;
+  height: 30px;
+  margin: 10px;
+  background: transparent;
+  border: 1px solid rgb(126, 121, 121);
+}
+.add-admin-form h4 {
+  margin: 0;
+  text-align: center;
+  width: 300px;
+}
+table {
+  width: auto;
+}
+table th {
+  background: #fff;
+}
+table button {
+  border: none;
+  font-size: 15px;
+  background: transparent;
+  width: 100%;
+  padding: 5px;
+}
+.admins table button {
+  color: red;
+}
+table,
+th,
+tr,
+td {
+  border: 2px solid gray;
+  border-collapse: collapse;
+  padding: 4px 10px;
+  text-align: center;
+}
+th,
+tr,
+td {
+  border: 1px solid gray;
+}
+.main-body {
+  overflow: scroll;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  min-height: 550px;
+}
+.routes,
+.schedules,
+.buses {
+  width: 100%;
+}
+
+.add-route,
+.add-schedule,
+.add-bus {
+  display: flex;
+  flex-direction: row;
+}
+.add-route-form,
+.add-schedule-form,
+.add-bus-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+.add-route-form .input,
+.add-schedule-form .input,
+.add-bus-form .input {
+  width: 140px;
+  margin: 20px;
+  padding: 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.add-route-form p,
+.add-schedule-form p,
+.add-bus-form p {
+  margin-top: -10px;
+}
+.add-route-form .adbtn,
+.add-bus-form .adbtn {
+  margin-top: 20px;
+  padding: 2.5px 10px;
+}
+.add-route-form .add-btn,
+.add-bus-form .add-btn {
+  margin-left: 20px;
+}
+
+.modal1 {
+  position: fixed;
+  display: none;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: #333;
+  color: white;
+  overflow: auto;
+  z-index: 1;
+}

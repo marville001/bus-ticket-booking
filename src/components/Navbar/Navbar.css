@@ -1,0 +1,25 @@
+.blueIcon {
+  margin-right: auto;
+  /* padding-top: 20px; */
+}
+.navhbar {
+  align-items: center;
+  background: #eed;
+}
+.ul {
+  margin-right: 50px;
+}
+li {
+  list-style-type: none;
+  margin: 0px;
+}
+.ul .li {
+  display: inline;
+  margin-right: 20px;
+}
+.arr::after {
+  content: "";
+  border-left: 5px;
+  background: red;
+  width: 30px;
+}
