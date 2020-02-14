@@ -20,7 +20,7 @@ class Admin extends Component {
     super(props);
     this.state = {
       user: "",
-      isLoggedIn: true,
+      isLoggedIn: false,
       contentIndex: "bus-schedule",
       admins: [],
       buses: [
